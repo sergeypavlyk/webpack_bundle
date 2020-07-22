@@ -38,10 +38,20 @@ module.exports = {
             }
           }
         ]
+      },
+      {
+        test: /\.html$/,
+        loader: "raw-loader"
       }
     ],
   },
   plugins: [
     new HtmlWebpackPlugin({template: './index.html'})
   ],
+  devServer: {
+    port: 8080,
+    contentBase: './src',
+    watchContentBase: true
+  },
+  watch: true
 };

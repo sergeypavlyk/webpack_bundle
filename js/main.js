@@ -1,5 +1,4 @@
-import '../sass/style.scss'
-console.log('Its bundled now !');
+import '../sass/style.scss';
 
 const tag = document.createElement('p');
 const text = document.createTextNode('Ready! -- Click here to check @babel-loader efficiency --');
