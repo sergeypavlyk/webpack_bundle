@@ -12,4 +12,3 @@ element.appendChild(tag);
 document.querySelector('p').addEventListener('click', () => {
   document.querySelector('p').innerText = 'It works!';
 });
-
